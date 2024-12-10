@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #181818;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  
+  /* Боковая панель */
+  .sidebar {
+    width: 200px;
+    background-color: #202020;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .menu-item {
+    margin: 20px 0;
+    cursor: pointer;
+    color: white;
+    text-align: left;
+  }
+  
+  .menu-item:hover {
+    color: #FF0000;
+  }
+  
+  /* Контентная часть */
+  .content-wrapper {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Шапка */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #202020;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    width: 300px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .search-bar button {
+    padding: 8px 15px;
+    margin-left: 10px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  /* Категории */
+  .categories {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin: 20px 0;
+  }
+  
+  .categories button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .categories button:hover {
+    background-color: #FF0000;
+  }
+  
+  /* Основной контент */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .video-card {
+    background-color: #202020;
+    border-radius: 8px;
+    width: 320px;
+    padding: 10px;
+  }
+  
+  .video-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .video-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .video-card p {
+    font-size: 14px;
+    color: #909090;
+  }

@@ -1,0 +1,51 @@
+/* Стилі для всього тіла сторінки */
+body {
+    background-color: #f0f8ff; /* Світлий фон */
+    font-family: Arial, sans-serif; /* Шрифт для тексту */
+}
+
+/* Стилі для форми */
+form {
+    width: 400px; /* Ширина форми */
+    margin: 50px auto; /* Центрування форми */
+    padding: 20px; /* Відступи всередині форми */
+    background-color: #fff; /* Білий фон */
+    border-radius: 10px; /* Закруглені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь навколо форми */
+}
+
+/* Стилі для підписів до полів */
+label {
+    font-size: 14px;
+    color: #333; /* Колір тексту */
+}
+
+/* Стилі для полів введення */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%; /* Ширина 100% для полів */
+    padding: 10px; /* Відступи всередині полів */
+    margin: 8px 0; /* Відступи між полями */
+    border: 1px solid #ccc; /* Колір рамки полів */
+    border-radius: 5px; /* Закруглені кути полів */
+    box-sizing: border-box; /* Включення відступів та рамки в загальну ширину */
+}
+
+/* Стилі для кнопки відправлення форми */
+input[type="submit"] {
+    background-color: #4CAF50; /* Зелений фон для кнопки */
+    color: white; /* Білий текст */
+    padding: 10px 20px; /* Внутрішні відступи для кнопки */
+    margin-top: 10px;
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закруглені кути */
+    cursor: pointer; /* Зміна курсора на руку при наведенні */
+    width: 100%; /* Ширина кнопки на 100% */
+}
+
+/* Ефект при наведенні на кнопку */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Темніший зелений колір при наведенні */
+}

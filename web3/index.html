@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- Боковая панель -->
+    <aside class="sidebar">
+        <div class="menu-item">Головна</div>
+        <div class="menu-item">Shorts</div>
+        <div class="menu-item">Підписки</div>
+        <div class="menu-item">Профіль</div>
+    </aside>
+
+    <!-- Основной контент -->
+    <div class="content-wrapper">
+        <!-- Шапка -->
+        <header class="header">
+            <div class="logo">YouTube</div>
+            <img src="photo.png" alt="Logo" width="80">
+            <div class="search-bar">
+                <input type="text" placeholder="Пошук">
+                <button>Search</button>
+            </div>
+        </header>
+
+        <!-- Навигация по категориям -->
+        <nav class="categories">
+            <button>Все</button>
+            <button>Відеоигри</button>
+            <button>Музика</button>
+            <button>Новини</button>
+            <button>Екшен та пригоди</button>
+            <button>Туризм</button>
+        </nav>
+
+        <!-- Основной контент с видео -->
+        <main class="main">
+            <div class="video-grid">
+                <!-- Видеокарточки с iframe для каждого видео -->
+                <div class="video-card">
+                    <iframe width="300" height="180" src="https://www.youtube.com/embed/wQngsxw16J8" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>ALEKSEEV і ADAM в СРАЧІ #29</h3>
+                    <p>Леви на Джипі • 1.4 млн. переглядів • 2 дні тому</p>
+                </div>
+
+                <div class="video-card">
+                    <iframe width="300" height="180" src="https://www.youtube.com/embed/JWj5XG9ssbo" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>хейтспіч - птахи летять додому (official video)</h3>
+                    <p>хейтспіч • 454 тис. просмотров • 4 місяці тому</p>
+                </div>
+
+                <div class="video-card">
+                    <iframe width="300" height="180" src="https://www.youtube.com/embed/aFsGDcy-6hc" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                    <h3>Venom: The Last Dance | Trailer</h3>
+                    <p>Marvel Entertainment • 8.9 млн. переглядів • 3 тижні тому</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
